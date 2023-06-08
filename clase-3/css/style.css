@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@100;400;500;700&display=swap');
+/**reset**/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+/* dadadad */
+
+/*
+fuentes 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+header{
+    background-color: blue;
+}
+header div{
+    background-color: green;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+section{
+    background-color: lightblue;
+}
+
+/*un punto adelante siempre llama a una clase*/
+.cambio-section-dos{
+    background-color: rgb(216, 62, 182);
+    color: rgb(205, 217, 35);
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: rgb(233, 225, 70);
+}
+
+/*cuando se declara solamente 1 vez se puede utilizar**/
+#cambio-id{
+    background-color: green;
+}
+
