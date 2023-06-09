@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.header-div ul{
+    list-style: none;
+}
+.header-div ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+.header-nav ul{
+    list-style: none;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    color: 20px;
+}
+
+.section-principal{
+    text-align: center;
+    background-color: lightcyan;
+}
+.section-tres{
+    background-color: gray;
+
+}
