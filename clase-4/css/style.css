@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+@font-face {
+    font-family: 'pepito-font';
+    src: url("../assets/fonts/Betterlett.ttf");
+}
+
+html{
+    font-size: 62.5%;
+}
+header{
+    background-image: url("../assets/img/wave.svg");
+    background-repeat: no-repeat;/*podemos decirle que se repita en el eje X en el eje Y y que no se repita */
+    /* background-position: center ; */
+    background-size: cover;
+}
+
+main img{
+    width: 100%;
+}
+.navbar li{
+ display: inline;
+}
+.header-div ul{
+    list-style: none;
+}
+.header-div ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+.header-nav ul{
+    list-style: none;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    color: 20px;
+}
+
+.section-principal{
+    text-align: center;
+  
+    /*ancho*/
+    width:100%; 
+    /*largo*/
+    height: 800px;  
+    font-size: 30px;
+
+    /*background-imagenes*/
+   
+    /*medidas en desarrollo web
+    
+    medidas absolutas: PX
+    es una medida que no varia de tamaño frente a diferentes dispositivos
+    500px => simpre el mismo tamaño en tablets celulares o desktop. (en que me dificulta, en responsive)
+
+    ¿Que es responsive? llevar mi html de desktop a mobile
+
+    Medidas relativas
+    Son medidas que se van adaptar o tiende a adaptarse mas rapido y mas facil a los diferentes tamaños
+
+    %= porcentaje
+
+    rem= 
+    font-size: 16px => 1rem 
+    
+    1rem => 10px
+
+    100% => 16px
+    62.5% => 10px 
+    
+    em= 
+    
+    vh= viewheight el ancho en caunto a la pantalla
+
+    vw=viewWidth 
+    
+    */
+
+
+}
+
+/*font-face*/
+
+.section-principal h2{
+    font-family: 'pepito-font';
+    font-size: 0.5em;
+}
+
+.section-tres{
+    background-color: gray;
+
+}
+
+/*cards*/
+
+.cards{
+    width: 18.75rem;
+    height: 25rem;
+    background-color: lightcoral;
+    border: 2px solid black;
+    /* border-style: double;
+    border-color: bisque;
+    border-width: 4px; */
+    border-radius: .3125rem;
+    margin: 20px;
+    /*overflow funciona como mascara*/
+   
+}
+.cards h3{
+    background-color: lightgrey;
+    /* padding:20px; */
+    padding-top: 20px ;/*arriba*/
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+/*en ejes o en linea*/
+    padding: 20px 10px;
+    padding: 20px 10px 0px 30px; 
+}
+.card-color{
+    background-color: lightgoldenrodyellow;
+}
