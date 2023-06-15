@@ -130,3 +130,15 @@ nav{
 .card-color{
     background-color: lightgoldenrodyellow;
 }
+
+/*POSITION**/
+.box{
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: lightcoral;
+}
+
+.box-color{
+    background-color: blue;
+}
+

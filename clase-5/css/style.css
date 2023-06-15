@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+@font-face {
+    font-family: 'pepito-font';
+    src: url("../assets/fonts/Betterlett.ttf");
+}
+
+
+header{
+    background-image: url("../assets/img/wave.svg");
+    background-repeat: no-repeat;/*podemos decirle que se repita en el eje X en el eje Y y que no se repita */
+    /* background-position: center ; */
+    background-size: cover;
+    position: sticky;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    background-color: white;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-div ul{
+    list-style: none;
+}
+.header-div ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+/**movimientos epseciales**/
+.header-nav{
+    display: flex;
+    justify-content:space-around;
+}
+.header-nav ul{
+    list-style: none;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    color: 20px;
+}
+
+/*section principal con flexbox**/
+.section-principal{
+    background-image: url("../assets/img/pngtree-argentina-flag-with-watercolor-brush-for-world-cup-png-image_6490208.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(173, 216, 230, 0.541);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* .section-principal{
+    text-align: center;
+  
+   
+    width:100%; 
+   
+    height: 800px;  
+    font-size: 30px; */
+
+    /*background-imagenes*/
+   
+    /*medidas en desarrollo web
+    
+    medidas absolutas: PX
+    es una medida que no varia de tamaño frente a diferentes dispositivos
+    500px => simpre el mismo tamaño en tablets celulares o desktop. (en que me dificulta, en responsive)
+
+    ¿Que es responsive? llevar mi html de desktop a mobile
+
+    Medidas relativas
+    Son medidas que se van adaptar o tiende a adaptarse mas rapido y mas facil a los diferentes tamaños
+
+    %= porcentaje
+
+    rem= 
+    font-size: 16px => 1rem 
+    
+    1rem => 10px
+
+    100% => 16px
+    62.5% => 10px 
+    
+    em= 
+    
+    vh= viewheight el ancho en caunto a la pantalla
+
+    vw=viewWidth 
+    
+    */
+
+
+
+
+/*font-face*/
+/* 
+.section-principal h2{
+    font-family: 'pepito-font';
+    font-size: 0.5em;
+}
+
+.section-tres{
+    background-color: gray;
+
+} */
+
+/*cards*/
+.section-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.cards{
+    width: 300px;
+    height: 350px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    /* border-style: double;
+    border-color: bisque;
+    border-width: 4px; */
+    border-radius: .3125rem;
+    /*overflow funciona como mascara*/
+    position: relative;
+   
+}
+.cards .clase-icon{
+    width: 30px;
+    position: absolute;
+    right: -10px;
+}
+.cards .clase-img{
+    width: 100%;
+    height: 200px;
+}
+.clase-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.cards h3{
+    background-color: lightgrey;
+; 
+}
+.card-color{
+    background-color: lightgoldenrodyellow;
+}
+
+/*POSITION**/
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: lightcoral;
+}
+.box-color2{
+    position: relative;
+    background-color: lime;
+    width: 500px;
+    height: 500px;
+}
+.box-color{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    font-size:100px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    row-gap: 1.25rem;
+    column-gap: ;
+}
