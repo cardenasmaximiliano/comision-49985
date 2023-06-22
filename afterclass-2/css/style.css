@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+colores
+
+#2B2730 blue
+#E966A0 pink
+#213363 black
+
+tipografias
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+header{
+    width: 100%;
+    
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .875rem;
+    padding: .625rem 0rem;
+}
+
+.nums{
+    display: flex;
+    gap: .9375rem;
+}
+
+.header-div ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.25rem;
+    padding-right: .625rem;
+}
+
+.header-div ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #E966A0;
+    font-size: .875rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #03050b;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: .625rem 0px;
+}
+
+.header-nav h1{
+    font-size: 1.875rem;
+    padding-left: .9375rem;
+}
+
+.navbar{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding-right: .625rem;
+}
+
+.navbar li a:hover{
+    color: #E966A0 ;
+}
+
+/*inicio de main*/
+
+/**section principal**/
+
+.section-principal{
+    width: 100%;
+    height: 31.25rem;
+    background-image: url("https://images.unsplash.com/photo-1514348871858-1d3c20902571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+    background-repeat: no-repeat; 
+    background-position: 0px -300px;
+    background-size: cover;
+}
+.section-bloque{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: .9375rem;
+}
+.section-bloque p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.section-bloque h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.section-bloque div{
+    width: 40%;
+    text-align: center;
+    
+}
+.section-bloque div p{
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.select{
+   position: relative;
+}
+.select img{
+    position: absolute;
+    top: 0;
+   left: 150px;
+}
