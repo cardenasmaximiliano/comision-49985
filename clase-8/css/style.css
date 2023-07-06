@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    padding: 1.25rem 0px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3125rem;
+}
+.navbar li a:visited{
+    color:green;
+}
+.navbar li a:hover{
+    color: red;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+h1:hover{
+    background-color: lightsalmon;
+
+}
+
+button:active{ /*se activa cuando se clickea*/
+    background-color: rgb(172, 39, 39);
+}
+
+input:focus{
+    box-shadow: 2px 2px 5px red;
+    background-color: red;
+}
+
+.texto p:first-child{
+    color: blue;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.texto p:last-child{
+    color: green;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.texto p:nth-child(2){
+    color: pink;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.texto p:not(.padre){
+    color: blue;
+}
+
+
+.pseudoelemento p:active::before{
+    content: "MESSI ";
+    color: lightblue;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.pseudoelemento p:active:after{
+    content: " del mundo";
+    color: lightblue;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.pseudoelemento p::first-letter{
+    color: yellow;
+    background-color: black;
+    font-size: 40px;
+}
+
+.pseudoelemento p::first-line{
+    background-color: lightcoral;
+}
+
+.pseudoelemento p::selection{
+    background-color: yellow;
+    color: red;
+}
+
+
+/* bloque**/
+
+.navbar{
+
+}
+
+/**elemento*/
+
+.navbar__li{
+    
+}
