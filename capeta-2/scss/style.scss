@@ -1,0 +1,22 @@
+header{
+    background-color: blue;
+    h1{
+        font-size: 40px;
+    }
+    nav{
+        width: 100%;
+    }
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    li{
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}
