@@ -1,0 +1,24 @@
+header{
+    background-color: $background-principal;
+    @include flex (row,nowrap,space-between,center);
+    h1{
+        color: $color-text-principal;
+        &:hover{
+            color: red;
+        }
+    }
+    nav{
+        background-color: $background-principal;
+    }
+}
+.navbar{
+    list-style: none;
+    gap: 1.25rem;
+    @include flex(column,wrap,center,center);
+    li{
+        a{
+            text-decoration: none;
+            color: $color-text-principal;
+        }
+    }
+}

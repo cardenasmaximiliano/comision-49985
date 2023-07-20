@@ -1,0 +1,9 @@
+/**los primeros partial que se llaman son de las variables y de los mixins*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+/*codigo de tu proyecto*/
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+

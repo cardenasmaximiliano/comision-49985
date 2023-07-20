@@ -1,0 +1,78 @@
+.section-principal{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem 0px;
+    gap: 1.875rem;
+    
+}
+
+.section-principal div:nth-child(2){
+    color: white;
+    width: 25rem;
+}
+.shadow{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(246, 50, 50);
+    border-radius: 50%;  
+    /* transform: skew(30deg); */
+}
+
+// .circle:hover{
+//     /* transform: translate(40px, 60px); */
+//     /* transform: rotate(40deg); */
+//     /* transform: scale(1.08); */
+// } 
+
+/*cuadrado*/
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    transition: width 0.6s cubic-bezier(0.65, 0, 0.35, 1), height 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+    background-color: lightsalmon;
+
+    &:hover{    
+            width: 500px;
+            height: 600px;
+            background-color: lightgray;
+    }
+}
+
+// .animacion{
+//     width: 300px;
+//     height: 300px;
+//     background-color: lightcyan;
+//     animation-name: animacion-nueva;
+//     animation-duration: 6s;
+//     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+//     animation-iteration-count: infinite;
+//     animation-delay: 4s;
+// }
+
+// @keyframes animacion-nueva {
+    
+//     100%{
+//         background-color: lightcyan;
+//         width: 200px;
+//     }
+//     50%{
+//         background-color: rgb(237, 191, 41);
+//         width:400px;
+//     }
+//     25%{
+//         background-color: red;
+//     }
+//     0%{
+//         background-color: whitesmoke;
+//     }
+
+// }

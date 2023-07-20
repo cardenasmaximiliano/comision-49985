@@ -1,0 +1,29 @@
+header{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.25rem 1.25rem;
+        background: rgb(0,0,0);
+        background: linear-gradient(51deg, rgba(0,0,0,1) 10%, rgba(127,194,236,1) 58%, rgba(210,2,236,1) 100%);
+}
+.navbar{
+    display: flex;
+    gap: 1.25rem;
+    padding-right: 1.25rem;
+    list-style: none;
+    li{
+        transition: transform 0.6s cubic-bezier(0.37, 0, 0.63, 1);
+        &:hover{
+            transform: scale(1.1);
+        }
+        a{
+             font-size: 1.5625rem;
+            text-decoration: none;
+            color: white;
+
+        &:hover{
+                text-shadow: 0px 0px 5px whitesmoke;
+        }
+        }
+    }
+}

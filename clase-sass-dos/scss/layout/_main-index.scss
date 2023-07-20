@@ -1,0 +1,20 @@
+.main-index{
+    background-color: $background-principal;
+    .section-1{
+        text-align: center;
+        color: $color-text-principal;
+        font-size: 20px;
+        background-color: lightblue;
+    }
+    .section-2{
+        @extend .section-1;
+        font-size: 16px;
+    }
+    .section-3{
+        @include grid (repeat(2,1fr),1fr 200px 300px,center,none,"a1 a1 a1""a2 a2 a2""a3 a3 a3");
+    }
+    .section-4 {
+        @extend .section-3;
+    }
+
+}

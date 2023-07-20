@@ -1,0 +1,65 @@
+/**los primeros partial que se llaman son de las variables y de los mixins*/
+/*codigo de tu proyecto*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(64, 131, 213, 0.615);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  color: rgb(255, 0, 0);
+}
+header h1:hover {
+  color: red;
+}
+header nav {
+  background-color: rgba(64, 131, 213, 0.615);
+}
+
+.navbar {
+  list-style: none;
+  gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.navbar li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.main-index {
+  background-color: rgba(64, 131, 213, 0.615);
+}
+.main-index .section-1, .main-index .section-2 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  background-color: lightblue;
+}
+.main-index .section-2 {
+  font-size: 16px;
+}
+.main-index .section-3, .main-index .section-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 200px 300px;
+  justify-content: center;
+  align-content: none;
+  grid-template-areas: "a1 a1 a1" "a2 a2 a2" "a3 a3 a3";
+}
+footer {
+  background-color: rgba(64, 131, 213, 0.615);
+}
+
+/*# sourceMappingURL=style.css.map */
