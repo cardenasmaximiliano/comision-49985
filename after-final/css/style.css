@@ -1,0 +1,17 @@
+/*variables y los mixins**/
+/**reset y las tipografias**/
+/**codigo principal***/
+header {
+  background-image: url("../assets/img/icon.png");
+}
+
+.dropdown-toggle::after {
+  border: none;
+}
+
+/**media querry recuerden si es 
+Desktop first = en orden decreciente
+mobile first = orden creciente
+*/
+
+/*# sourceMappingURL=style.css.map */

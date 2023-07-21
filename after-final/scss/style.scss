@@ -1,0 +1,17 @@
+/*variables y los mixins**/
+
+
+/**reset y las tipografias**/
+
+/**codigo principal***/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-contactos";
+@import "./layout/main-nosotros";
+
+/**media querry recuerden si es 
+Desktop first = en orden decreciente
+mobile first = orden creciente
+*/
+
